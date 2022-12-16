@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.acslogo img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.greeting {
+    font-size: 500%;
+
+}
+
+body {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+.margin {
+    font-size: 1.5rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 2em;
+}
+
+footer, header {
+    color: white;
+    background-color: black;
+}
